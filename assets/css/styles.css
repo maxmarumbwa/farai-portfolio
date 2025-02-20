@@ -21,3 +21,7 @@
 #geo-expertise-list li:hover {
   transform: scale(1.02);
 }
+
+#nav {
+  background-color: rgba(10, 31, 53, 0.007) !important;
+}
