@@ -7,6 +7,7 @@ repos:
           - id: end-of-file-fixer
             types: [python]
           - id: trailing-whitespace
+            exclude: '.*\.js$'  # Exclude all .js files
           - id: requirements-txt-fixer
           - id: check-added-large-files
             args: ["--maxkb=500"]
